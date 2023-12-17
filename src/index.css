@@ -5,19 +5,33 @@
     --background-light:#C5CDE0;
     --text-dark:#F9FAFC;
     --background-dark:#1e1e1e;
+    margin: 20px;
 }
 @media(prefers-color-scheme: dark){
-    :root{
-        --text:var(--text-dark);
-        --background:var(--background-dark);
+    :root {
+      --text: var(--text-dark);
+      --background:var(--background-dark)
     }
-}
-@media(prefers-color-scheme: light){
-    :root{
-        --text:var(--text-light);
-        --background:var(--background-light);
+  }
+  
+  @media(prefers-color-scheme: light){
+    :root {
+      --text: var(--text-light);
+      --background:var(--background-light)
     }
-}
+  }
+  
+  [color-scheme="dark"]{
+    --text: var(--text-dark);
+    --background:var(--background-dark)
+    
+  }
+  
+  [color-scheme="light"] {
+    --text: var(--text-light);
+    --background:var(--background-light)
+  }
+  
 
 body{
     background-color: var(--background);

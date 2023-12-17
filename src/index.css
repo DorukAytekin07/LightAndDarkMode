@@ -1,6 +1,10 @@
 :root{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    --text-light:black;
+    --background-light:white;
+    --text-dark:aliceblue;
+    --background-dark:#252526;
 }
 p{
     font-weight: bold;

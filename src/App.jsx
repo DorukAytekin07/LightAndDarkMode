@@ -4,7 +4,7 @@ function App() {
     return(
         
         <div>
-            <h1>Light Mode</h1>
+            <h1 className='text'>Light Mode</h1>
             <p className='text'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo ipsum commodi nisi 
                 suscipit ad qui quia quos quis? Facere nam, quo incidunt qui explicabo atque pariatur 
